@@ -48,7 +48,7 @@ if __name__=='__main__':
   user_input= userinput(stripped )
   output = merge (parts,user_input)
   print(output)
-  my_file = open("this_is_file.txt","w+")
+  my_file = open("Output.txt","w+")
   my_file.write(output)
 
     
